@@ -64,11 +64,11 @@ using different algorithms establishing a concrete value of tau to show the sequ
 <div style="display:flex;justify-content:center;margin: 0 auto; text-align: center">
   <span style="padding: 10px">
     <p>Action: Cup pour</p>
-    <img src="images/cup_pour.gif"/>
+    <img src="images/cup_pour.gif" width="300"/>
   </span>
   
   <span style="padding: 10px">
     <p>Action: Spatula lift</p>
-    <img src="images/spatula_lift.gif"/>
+    <img src="images/spatula_lift.gif" width="300"/>
   </span>
 </div>
