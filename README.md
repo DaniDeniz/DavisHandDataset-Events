@@ -72,3 +72,6 @@ using different algorithms establishing a concrete value of tau to show the sequ
     <img src="images/spatula_lift.gif" width="300"/>
   </span>
 </div>
+
+## Acknowledgments
+We acknowledge the Telluride Neuromorphic Cognition Engineering Workshop (http://www.ine-web.org) for the fruitful discussions on neuromorphic cognition and their participants for helping with the recording of the dataset.
