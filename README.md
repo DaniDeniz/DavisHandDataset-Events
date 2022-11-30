@@ -37,9 +37,9 @@ Additionally, the above script also splits the data into train, validation and t
 - **all_davis_hand_dataset_npy**: data randomly splitted into train, validation and test
 - **s1_davis_hand_dataset_npy**: data of s1 used exclusively for test
 - **s2_davis_hand_dataset_npy**: data of s2 used exclusively for test
-- **s3_davis_hand_dataset_npy**: data of s2 used exclusively for test
-- **s4_davis_hand_dataset_npy**: data of s2 used exclusively for test
-- **s5_davis_hand_dataset_npy**: data of s2 used exclusively for test
+- **s3_davis_hand_dataset_npy**: data of s3 used exclusively for test
+- **s4_davis_hand_dataset_npy**: data of s4 used exclusively for test
+- **s5_davis_hand_dataset_npy**: data of s5 used exclusively for test
 
 ## Read event data
 Once the event data is downloaded, we can read it using numpy. To do that, for example, you should:
