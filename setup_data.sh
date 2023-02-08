@@ -1,7 +1,7 @@
 #/bin/bash
 echo "Start downloading Davis Hand Dataset..."
 
-wget -O DavisHandDataset-EventsData.zip https://drive.ugr.es/index.php/s/WsrU6DVesVdywtn/download
+wget -O DavisHandDataset-EventsData.zip https://drive.ugr.es/index.php/s/rLq5wVayaoj8yff/download
 
 echo "Davis Hand Dataset download finished"
 
