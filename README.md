@@ -1,5 +1,5 @@
 # DavisHandDataset-Events
-This repository contains the Davis Hand Dataset, that represent manipulation actions recorded using event cameras. This dataset consist of 30 different manipulation actions using 6 objects. 
+This repository contains the Davis Hand Dataset, which represents manipulation actions recorded using event cameras. This dataset consists of 30 different manipulation actions using 6 objects. 
 The 30 classes included in this dataset are the following:
 - cup
     - drink, pound, shake, move, pour
@@ -58,8 +58,8 @@ The events object is organized as a dictionary with the following keys:
 - max_height: higher height position (useful when building time surfaces)
 
 With this information, it is possible to build time surfaces using the event data. In particular, you can create time surfaces
-using different algorithms establishing a concrete value of tau to show the sequence of events as a video. 
-(Refer to [tutorial_read_events.ipynb](tutorial_read_events.ipynb) for further details)
+using different algorithms defining a particular *tau* value to show the sequence of events as a video. 
+(Refer to [tutorial_read_events.ipynb](tutorial_read_events.ipynb) - TBD - for further details)
 
 <div style="display:flex;justify-content:center;margin: 0 auto; text-align: center">
   <span style="padding: 10px">
