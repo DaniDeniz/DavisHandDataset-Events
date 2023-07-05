@@ -16,7 +16,7 @@ The 30 classes included in this dataset are the following:
 
 Refer to [classes.json](classes.json) to check the ID of every action.
 
-Additionally, the examples were recorded by 5 different subjects (S1, S2, S3, S4 and S5). Each subject recorded five instances of every action. 
+Additionally, the examples were recorded by 5 different subjects (S1, S2, S3, S4, and S5). Each subject recorded five instances of every action. 
 Therefore, each class has 25 samples, which results in 750 examples recorded with events with an average duration of 3 seconds.
 
 ## Dataset retrieval process
@@ -27,14 +27,14 @@ cd DavisHandDataset-Events
 ./setup_data.sh
 ```
 
-This script will download a zip with the event data. The zip includes two folders. One folder (AllEvents) include all the events recorded from the DAVIS camera, the second folder (TrackerEvents) include only the events that occur
+This script will download a zip with the event data. The zip includes two folders. One folder (AllEvents) includes all the events recorded from the DAVIS camera, the second folder (TrackerEvents) includes only the events that occur
 around the hand of the subject (we used a hand tracker). With this, we reduce the number of events required to analyze the sequences and identify the activities.
 
 The event sequences are represented using .npy files that can be opened using numpy. The data is organized as follows: 6 folders for each of the objects, and then, each of that folders include 5 folders representing the different activities. 
-Finally, the actions folders has 5 .npy files with events recorded from 5 subjects (25 in total).
+Finally, the actions folders have 5 .npy files with events recorded from 5 subjects (25 in total).
 
-Additionally, the above script also splits the data into train, validation and test. Concretely, the script create 6 datasets using the event data:
-- **all_davis_hand_dataset_npy**: data randomly splitted into train, validation and test
+Additionally, the above script also splits the data into train, validation, and test. Concretely, the script creates 6 datasets using the event data:
+- **all_davis_hand_dataset_npy**: data is randomly split into train, validation, and test
 - **s1_davis_hand_dataset_npy**: data of s1 used exclusively for test
 - **s2_davis_hand_dataset_npy**: data of s2 used exclusively for test
 - **s3_davis_hand_dataset_npy**: data of s3 used exclusively for test
