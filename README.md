@@ -1,5 +1,5 @@
-# DavisHandDataset-Events
-This repository contains the Davis Hand Dataset, which represents manipulation actions recorded using event cameras. This dataset consists of 30 different manipulation actions using 6 objects. 
+# Event-based Manipulation Action Dataset
+This repository contains the Event-based Manipulation Action Dataset, which represents manipulation actions recorded using event cameras. This dataset consists of 30 different manipulation actions using 6 objects. 
 The 30 classes included in this dataset are the following:
 - cup
     - drink, pound, shake, move, pour
