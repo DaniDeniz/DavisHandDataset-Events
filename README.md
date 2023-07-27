@@ -73,5 +73,11 @@ using different algorithms defining a particular *tau* value to show the sequenc
   </span>
 </div>
 
+## Citation
+[1] D. Deniz, C. Fermuller, E. Ros, M. Rodriguez-Alvarez, & F. Barranco. (2023) "Event-based Vision for Early Prediction of Manipulation Actions". *[arXiv preprint arXiv:2307.14332](https://arxiv.org/abs/2307.14332)*.
+
+[2] D. Deniz, E. Ros, C. Fermuller, & F. Barranco. (2023). "When Do Neuromorphic Sensors Outperform cameras? Learning from Dynamic Features". In 2023 57th Annual Conference on Information Sciences and Systems (CISS) (pp. 1-6). IEEE.
+
+
 ## Acknowledgments
 We acknowledge the Telluride Neuromorphic Cognition Engineering Workshop (http://www.ine-web.org) for the fruitful discussions on neuromorphic cognition and their participants for helping with the recording of the dataset.
